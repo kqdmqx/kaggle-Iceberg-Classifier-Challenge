@@ -14,8 +14,8 @@ In this competition, you’re challenged to build an algorithm that automaticall
 * **Statoil**是一个在世界范围内都有业务的能源公司，和**C-CORE**这样的公司有紧密的合作。
 * **C-CORE**已经使用了30年的卫星数据，且已经建立了一个基于机器视觉的监视系统。
 * 为了保证行动的安全高效，**Statoil**对如何使用机器学习更精确的检测和识别来自冰山的威胁感兴趣。
-* 在本次比赛中，
-* 
+* 在本次比赛中，你面临的挑战是开发一个可以自动识别遥感目标是一艘船或是冰山。
+* 产生的改进将有助于降低安全工作的成本。
 
 
 ## Background
@@ -29,6 +29,14 @@ When the radar detects a object, it can't tell an iceberg from a ship or any oth
 For this contest you will see data with two channels: HH (transmit/receive horizontally) and HV (transmit horizontally and receive vertically). This can play an important role in the object characteristics, since objects tend to reflect energy differently. Easy classification examples are see below. These objects can be visually classified. But in an image with hundreds of objects, this is very time consuming. 
 
 Here we see challenging objects to classify. We have given you the answer, but can you automate the answer to the question .... Is it a Ship or is it an Iceberg? 
+
+* 用来检测冰山的遥感系统部署于离地面600km的卫星上。
+* Sentinel-1卫星轨道星座是用来监控大陆和海洋的。
+* 每天绕行14次，卫星捕捉指定地点的地标图像。
+* 雷达用**C-Band**频率传统黑暗、雨水、云层甚至浓雾。
+* 因为雷达发射出自身的能源，所以它可以在白天和黑夜都捕捉到图像。
+* 卫星雷达和船上和飞机上的雷达以同样的方式工作。
+* 
 
 ## Evaluation
 
